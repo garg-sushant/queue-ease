@@ -1,16 +1,64 @@
-<<<<<<< HEAD
-# React + Vite
+🌐 QueueEase
+QueueEase is a simple, digital queue management web application designed for small businesses.
+It enables customers to join and monitor queues remotely while allowing admins to manage queues effectively.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tech Stack
+🌐 Frontend
+React
 
-Currently, two official plugins are available:
+Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Bootstrap 5
 
-## Expanding the ESLint configuration
+JavaScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# queue-ease
->>>>>>> ca0f8f496d8594669dcd10b59aff451162f4cdef
+🛠️ Persistence
+localStorage (for queue state, user session & daily reset)
+
+🌐 Hosting
+Vercel
+
+🎯 Features
+🏠 Home Page
+
+
+📝 Join Queue
+
+Customers can join a queue by submitting a simple form (Name & Email)
+
+Prevents duplicate entries by email
+
+Saves user info for session persistence
+
+📊 Queue Status
+
+Displays the current queue with all users
+
+Shows your position in the queue
+
+Option to leave the queue at any time
+
+Shows live counters: people served & people cancelled
+
+🛠️ Admin View
+
+Admin can view the full queue
+
+Serve the next person (advance the queue)
+
+Reset the queue & served count manually
+
+
+💾 Persistence
+
+Queue state, user session, and daily served count are saved in localStorage
+
+
+🌐 Live Demo
+🚀 Try it here: https://queue-ease-mu.vercel.app/
+
+📝 Author
+👤 Sushant Garg
+🔗 GitHub Profile
+
+🌐 QueueEase — Make queues easier & smarter!
